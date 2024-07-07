@@ -45,5 +45,12 @@ Observe o exemplo abaixo:
 O tipo long precisa terminar com "L" para nao dar erro e o java reconhecer o tipo.
 mesma coisa o float, tem que terminar com "F" para reconhecimento.
 
+Variaveis fixas tem que serem transformadas para tipo "final" caso contrario
+poderam ser modificadas, e devem ser escritas em CAIXA ALTA. 
+ex:
+
+    double VALOR_DE_PI = 3.14; <------ pode ser alterado.
+    final double VALOR_DE_PI = 3.14; <------- nao é possivel alterar o valor.
+
 
              */  

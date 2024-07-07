@@ -46,6 +46,18 @@ public class operadores {
         System.out.println( "A NOSSA CONDIÇÃO É VERDADEIRA!!");
         }
        
+        // LÓGICOS
+
+            boolean condicao1=true;
+            boolean condicao2=false;
+
+            if(condicao1 && condicao2){
+                System.out.println("As duas condições são verdadeiras");
+
+            }
+            if(condicao1 || condicao2){
+                System.out.println("Uma das condições é verdadeira");
+            }
 
     }
 
@@ -147,6 +159,13 @@ public class operadores {
         < Quando desejamos verificar se uma variável é MENOR QUE outra.
 
         <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+        LÓGICOS
+        Os operadores lógicos representam o recurso que nos permite criar expressões
+        lógicas maiores a partir da junçao de duas ou mais expressões.
+
+            && Operador Lógico "E"
+            || Operador Lógico "OU"
 
 
 
